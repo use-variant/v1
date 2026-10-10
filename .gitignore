@@ -1,0 +1,53 @@
+/node_modules/
+package-lock.json
+
+/apps/web/.env.local
+/apps/web/.next
+/apps/web/node_modules
+/apps/web/package-lock.json
+
+/apps/core/.env.local
+/apps/core/node_modules
+/apps/core/package-lock.json
+
+/services/otio-api/__pycache__/
+/services/otio-api/venv/*
+
+supabase_schema.sql
+
+# ----------------------------------------------------------------------
+# Standard Ignores
+# ----------------------------------------------------------------------
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node / Next.js / Turbo
+.turbo/
+.vercel/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+services/otio-api/.env
+.venv/
+env/
+
+# OS Files
+.DS_Store
+Thumbs.db
